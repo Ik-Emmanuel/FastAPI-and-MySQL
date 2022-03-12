@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import  List
 from fastapi import Depends, FastAPI, status, HTTPException
 from pydantic import BaseModel
 from .database import engine, SessionLocal
